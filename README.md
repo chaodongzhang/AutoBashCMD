@@ -1,5 +1,7 @@
 # AutoBashCMD
 
+English | [中文](README_CN.md)
+
 A zsh plugin that turns natural language into shell commands using local AI (Ollama / LM Studio).
 
 Type what you want in plain language — get an executable command back. No cloud, no API keys, everything runs locally.
@@ -8,6 +10,10 @@ Type what you want in plain language — get an executable command back. No clou
 
 - `zsh`, `curl`, `jq`
 - [Ollama](https://ollama.com) or [LM Studio](https://lmstudio.ai) running locally
+- Recommended model: `qwen2.5-coder:3b` — fast, lightweight, good at shell command generation
+  ```bash
+  ollama pull qwen2.5-coder:3b
+  ```
 
 ## Installation
 
@@ -72,7 +78,7 @@ ls这个命令如何使用
 | Variable | Default | Description |
 |---|---|---|
 | `SHELL_AI_BACKEND` | `ollama` | `ollama` or `lmstudio` |
-| `SHELL_AI_MODEL` | `gpt-oss:20b` | Model for command generation |
+| `SHELL_AI_MODEL` | `qwen2.5-coder:3b` | Model for command generation |
 | `SHELL_AI_TEXT_MODEL` | same as MODEL | Model for help/explain |
 | `SHELL_AI_DEBUG` | unset | Set to `1` for debug output |
 | `OLLAMA_BASE_URL` | `http://localhost:11434` | Ollama API endpoint |
@@ -87,7 +93,7 @@ export SHELL_AI_MODEL=qwen3.5-9b-mlx
 
 # Back to Ollama
 export SHELL_AI_BACKEND=ollama
-export SHELL_AI_MODEL=gpt-oss:20b
+export SHELL_AI_MODEL=qwen2.5-coder:3b
 ```
 
 ## How it works

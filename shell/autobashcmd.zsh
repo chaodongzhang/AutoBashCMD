@@ -84,7 +84,7 @@ _autobashcmd_model() {
     return 1
   fi
 
-  print -r -- "gpt-oss:20b"
+  print -r -- "qwen2.5-coder:3b"
 }
 
 _autobashcmd_text_model() {

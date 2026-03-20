@@ -10,6 +10,10 @@
 
 - `zsh`、`curl`、`jq`
 - [Ollama](https://ollama.com) 或 [LM Studio](https://lmstudio.ai) 在本地运行
+- 推荐模型：`qwen2.5-coder:3b` — 速度快、体积小、擅长生成 shell 命令
+  ```bash
+  ollama pull qwen2.5-coder:3b
+  ```
 
 ## 安装
 
@@ -75,7 +79,7 @@ rm 是什么意思
 | 变量 | 默认值 | 说明 |
 |---|---|---|
 | `SHELL_AI_BACKEND` | `ollama` | `ollama` 或 `lmstudio` |
-| `SHELL_AI_MODEL` | `gpt-oss:20b` | 命令生成用的模型 |
+| `SHELL_AI_MODEL` | `qwen2.5-coder:3b` | 命令生成用的模型 |
 | `SHELL_AI_TEXT_MODEL` | 同 MODEL | 解释说明用的模型 |
 | `SHELL_AI_DEBUG` | 未设置 | 设为 `1` 开启调试输出 |
 | `OLLAMA_BASE_URL` | `http://localhost:11434` | Ollama API 地址 |
@@ -90,7 +94,7 @@ export SHELL_AI_MODEL=qwen3.5-9b-mlx
 
 # 切回 Ollama
 export SHELL_AI_BACKEND=ollama
-export SHELL_AI_MODEL=gpt-oss:20b
+export SHELL_AI_MODEL=qwen2.5-coder:3b
 ```
 
 ## 工作原理

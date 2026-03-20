@@ -164,7 +164,7 @@ AI Backend: Ollama (`http://localhost:11434`) or LM Studio (`http://127.0.0.1:12
 | Variable | Default | Purpose |
 |---|---|---|
 | `SHELL_AI_BACKEND` | `ollama` | Backend selection: `ollama` or `lmstudio` |
-| `SHELL_AI_MODEL` | `gpt-oss:20b` | Model for command/classification |
+| `SHELL_AI_MODEL` | `qwen2.5-coder:3b` | Model for command/classification |
 | `SHELL_AI_TEXT_MODEL` | (same as MODEL) | Model for help/explain text |
 | `SHELL_AI_DEBUG` | unset | Set to `1` to enable debug logging to stderr |
 | `OLLAMA_BASE_URL` | `http://localhost:11434` | Ollama API base URL |
