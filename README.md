@@ -19,7 +19,9 @@ Type what you want in plain language — get an executable command back. No clou
 
 **Agent Install**: Give this URL to your coding agent and it will handle everything automatically:
 
+```
 https://raw.githubusercontent.com/chaodongzhang/AutoBashCMD/main/INSTALL_GUIDE.md
+```
 
 **Manual Install**:
 
