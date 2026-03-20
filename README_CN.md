@@ -17,10 +17,14 @@
 
 ## 安装
 
+```bash
+git clone https://github.com/chaodongzhang/AutoBashCMD.git ~/.AutoBashCMD
+```
+
 在 `~/.zshrc` 中加一行：
 
 ```bash
-source /path/to/AutoBashCMD/shell/autobashcmd.zsh
+source ~/.AutoBashCMD/shell/autobashcmd.zsh
 ```
 
 然后重新加载：

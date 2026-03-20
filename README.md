@@ -17,10 +17,14 @@ Type what you want in plain language — get an executable command back. No clou
 
 ## Installation
 
+```bash
+git clone https://github.com/chaodongzhang/AutoBashCMD.git ~/.AutoBashCMD
+```
+
 Add to your `~/.zshrc`:
 
 ```bash
-source /path/to/AutoBashCMD/shell/autobashcmd.zsh
+source ~/.AutoBashCMD/shell/autobashcmd.zsh
 ```
 
 Then reload:
