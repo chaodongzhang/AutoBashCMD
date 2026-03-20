@@ -17,6 +17,12 @@
 
 ## 安装
 
+**Agent 安装**：把下面这个地址发给你的 coding agent（Claude Code、Cursor、Codex 等），它会自动完成所有安装步骤：
+
+https://raw.githubusercontent.com/chaodongzhang/AutoBashCMD/main/INSTALL_GUIDE.md
+
+**手动安装**：
+
 ```bash
 git clone https://github.com/chaodongzhang/AutoBashCMD.git ~/.AutoBashCMD
 ```
