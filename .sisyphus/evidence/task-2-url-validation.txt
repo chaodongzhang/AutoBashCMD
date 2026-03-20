@@ -1,0 +1,5 @@
+=== Attempt 1 @ 2026-03-20T06:31:27Z ===
+command: sleep 5 && curl -fsS -o /dev/null -w "%{http_code}" https://raw.githubusercontent.com/chaodongzhang/AutoBashCMD/main/INSTALL_GUIDE.md
+raw_output: 200
+return_code: 0
+http_code: 200

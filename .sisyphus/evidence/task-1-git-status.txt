@@ -1,0 +1,20 @@
+git status --porcelain:
+?? .sisyphus/
+
+git log --oneline -1:
+19bba86 docs: add agent installation guide and update READMEs
+git status:
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.sisyphus/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+git diff HEAD~1 --name-status:
+A	INSTALL_GUIDE.md
+M	README.md
+M	README_CN.md
+

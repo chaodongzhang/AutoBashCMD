@@ -1,0 +1,4 @@
+INSTALL_GUIDE.md step count: 7
+Contains Check Prerequisites: YES
+Contains Tell the User: YES
+Contains touch ~/.zshrc: YES

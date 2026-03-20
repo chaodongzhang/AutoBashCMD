@@ -1,0 +1,4 @@
+=== Step headings count @ 2026-03-20T06:31:40Z ===
+command: curl -fsS https://raw.githubusercontent.com/chaodongzhang/AutoBashCMD/main/INSTALL_GUIDE.md | grep -c "^## Step"
+return_code: 0
+result: 7

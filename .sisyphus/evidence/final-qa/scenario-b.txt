@@ -1,0 +1,33 @@
+# Scenario B: README.md and README_CN.md Agent Install + URL checks
+Time: 2026-03-20 14:32:32
+
+CMD: grep -q "Agent Install" README.md && echo PASS || echo FAIL
+RC: 0
+OUTPUT:
+PASS
+
+CMD: grep -q "raw.githubusercontent.com/chaodongzhang/AutoBashCMD/main/INSTALL_GUIDE.md" README.md && echo PASS || echo FAIL
+RC: 0
+OUTPUT:
+PASS
+
+CMD: grep -q "Manual Install" README.md && echo PASS || echo FAIL
+RC: 0
+OUTPUT:
+PASS
+
+CMD: grep -q "Agent 安装" README_CN.md && echo PASS || echo FAIL
+RC: 0
+OUTPUT:
+PASS
+
+CMD: grep -q "raw.githubusercontent.com/chaodongzhang/AutoBashCMD/main/INSTALL_GUIDE.md" README_CN.md && echo PASS || echo FAIL
+RC: 0
+OUTPUT:
+PASS
+
+CMD: grep -q "手动安装" README_CN.md && echo PASS || echo FAIL
+RC: 0
+OUTPUT:
+PASS
+

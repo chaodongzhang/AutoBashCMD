@@ -1,0 +1,13 @@
+# Scenario F: remote URL content Step heading count
+Time: 2026-03-20 14:32:34
+
+CMD: curl -fsS https://raw.githubusercontent.com/chaodongzhang/AutoBashCMD/main/INSTALL_GUIDE.md | grep -c '^## Step'
+RC: 0
+OUTPUT:
+7
+
+CMD: curl -fsS https://raw.githubusercontent.com/chaodongzhang/AutoBashCMD/main/INSTALL_GUIDE.md | grep -c '^## Step'
+RC: 0
+OUTPUT:
+7
+

@@ -1,0 +1,8 @@
+# Scenario C: install.sh absence
+Time: 2026-03-20 14:32:32
+
+CMD: test ! -f install.sh && echo PASS || echo FAIL
+RC: 0
+OUTPUT:
+PASS
+

@@ -1,0 +1,14 @@
+# Final QA Evidence Index
+Generated at 2026-03-20 14:32:36
+-- .sisyphus/evidence/final-qa/scenario-a.txt
+      28 .sisyphus/evidence/final-qa/scenario-a.txt
+-- .sisyphus/evidence/final-qa/scenario-b.txt
+      33 .sisyphus/evidence/final-qa/scenario-b.txt
+-- .sisyphus/evidence/final-qa/scenario-c.txt
+       8 .sisyphus/evidence/final-qa/scenario-c.txt
+-- .sisyphus/evidence/final-qa/scenario-d.txt
+      32 .sisyphus/evidence/final-qa/scenario-d.txt
+-- .sisyphus/evidence/final-qa/scenario-e.txt
+      13 .sisyphus/evidence/final-qa/scenario-e.txt
+-- .sisyphus/evidence/final-qa/scenario-f.txt
+      13 .sisyphus/evidence/final-qa/scenario-f.txt

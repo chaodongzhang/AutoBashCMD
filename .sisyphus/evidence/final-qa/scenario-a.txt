@@ -1,0 +1,28 @@
+# Scenario A: local INSTALL_GUIDE.md exists and 7-step count
+Time: 2026-03-20 14:32:32
+
+CMD: test -f INSTALL_GUIDE.md && echo PASS || echo FAIL
+RC: 0
+OUTPUT:
+PASS
+
+CMD: grep -c "^## Step" INSTALL_GUIDE.md
+RC: 0
+OUTPUT:
+7
+
+CMD: grep -q "Check Prerequisites" INSTALL_GUIDE.md && echo PASS || echo FAIL
+RC: 0
+OUTPUT:
+PASS
+
+CMD: grep -q "Tell the User" INSTALL_GUIDE.md && echo PASS || echo FAIL
+RC: 0
+OUTPUT:
+PASS
+
+CMD: grep -q "touch ~/.zshrc" INSTALL_GUIDE.md && echo PASS || echo FAIL
+RC: 0
+OUTPUT:
+PASS
+

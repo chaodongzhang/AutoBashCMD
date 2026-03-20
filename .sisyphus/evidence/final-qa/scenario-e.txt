@@ -1,0 +1,13 @@
+# Scenario E: raw URL returns HTTP 200
+Time: 2026-03-20 14:32:32
+
+CMD: curl -fsS -o /dev/null -w '%{http_code}' https://raw.githubusercontent.com/chaodongzhang/AutoBashCMD/main/INSTALL_GUIDE.md
+RC: 0
+OUTPUT:
+200
+
+CMD: code=$(curl -fsS -o /dev/null -w '%{http_code}' https://raw.githubusercontent.com/chaodongzhang/AutoBashCMD/main/INSTALL_GUIDE.md 2>/dev/null || true); if [[ "$code" == "200" ]]; then echo "HTTP $code"; else echo "HTTP $code"; fi
+RC: 0
+OUTPUT:
+HTTP 200
+
